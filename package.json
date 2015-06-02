@@ -1,0 +1,20 @@
+{
+  "name": "html5bp",
+  "version": "0.1.0",
+  "description": "quickly add html5 boiler plate to a folder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "html5",
+    "boilerplate"
+  ],
+  "author": "boots <brbeut@gmail.com> (http://brettim.us/)",
+  "license": "MIT",
+  "preferGlobal": "true",
+  "bin": {
+    "html5bp": "index.js"
+  }
+}
