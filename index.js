@@ -21,7 +21,7 @@ var copyTo = process.argv[2],
     }
 
 // TODO - make platform agnostic
-ncp(expandHomeDir("~/.html5bp"), dest, function(err, data) {
+ncp(expandHomeDir("~/.html5bp/default"), dest, function(err, data) {
     if (err) {
         console.log(err);
         ncp(source, dest, function(err, data) {

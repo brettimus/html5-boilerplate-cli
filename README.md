@@ -19,5 +19,7 @@ html5bp /path/to/pretty-web-set
 ```
 
 ## Use your own templates
-Place the templates you'd like to use in `~/.html5bp/*`. (Sorry, Windows folk, but this will won't work for ya.)
+If you want to put use your own templates instead of the html5 boilerplate ones, you can do that! :confetti_ball:
+
+Place your templates in `~/.html5bp/default/*`. **(Sorry, Windows folk, but this will won't work for ya.)**
 

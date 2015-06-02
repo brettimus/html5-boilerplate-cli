@@ -1,6 +1,6 @@
 {
   "name": "html5bp",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "quickly add html5 boiler plate to a folder",
   "main": "index.js",
   "scripts": {
