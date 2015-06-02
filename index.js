@@ -13,7 +13,7 @@ var copyTo = process.argv[2],
             dest = copyTo;
         }
         else {
-            dest = path.join(process.cwd(), dest);
+            dest = path.normalize(path.join(process.cwd(), copyTo));
         }
     }
     else {
@@ -23,7 +23,6 @@ var copyTo = process.argv[2],
 // TODO - make platform agnostic
 ncp(expandHomeDir("~/.html5bp/default"), dest, function(err, data) {
     if (err) {
-        console.log(err);
         ncp(source, dest, function(err, data) {
             if (err) console.log("Error: ", err);
             else printDone(dest);
